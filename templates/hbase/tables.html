@@ -1,0 +1,28 @@
+{% extends "bbase.html" %}
+
+{% block title %} HBase数据表 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            HBase Tables</h1>
+        <div class="grid no-margin">
+            <table class="table striped bordered hovered">
+                <thead>
+                    <th class="text-left">TableName</th>
+                </thead>
+                <tbody>
+                    {% for table in tables %}
+                    <tr>
+                        <td><a href="/hbase/query/?tablename={{table}}">{{table}}</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

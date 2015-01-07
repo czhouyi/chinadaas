@@ -1,0 +1,100 @@
+{% extends "bbase.html" %}
+
+{% block title %} 主页 {% endblock %}
+
+{% block content %}
+<div style="background-color: rgb(239, 234, 227);">
+    <div class="container padding20" style="height: 100%;">
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/hbase/tables/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">HBase Query</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/company/personlist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">公司员工</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/company/linklist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">链接</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/company/sharelist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">分享</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/company/macaddrlist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">MAC地址分配</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/company/booklist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">书架</h1>
+            </a>
+        </div>
+        <div class="grid no-margin">
+            <a class="tile double bg-green text-center" href="/meta/tablelist/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">数据表</h1>
+            </a>
+        </div>
+        <!--<div class="grid no-margin">
+            <a class="tile double bg-blue text-center" href="/guo/query/">
+                <h1 class="fg-white" style="font-size:40px; line-height:90px;">分锅</h1>
+            </a>
+        </div>-->
+		<div class="grid fluid">
+			<div class="row">
+				<div class="span10">
+					<div class="panel" data-role="panel">
+						<div class="panel-header bg-lightBlue fg-white">首页公告</div>
+						<div class="panel-content" style="display:block; background-color: lightBlue;">
+							<h4>系统最新上线功能</h4>
+							1. 用户登录: 使用你的中数邮箱，默认密码为空，点击右上角按钮登录本系统，登录系统后及时修改你的密码。<br>
+							2. 元数据: 展现工商数据表结构字段明细<br>
+							3. 书架: 列出公司书架上所有图书的详细信息
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="bg-steel">
+        <div class="container" style="padding: 10px 0;">
+            <div class="grid no-margin">
+                <div class="row no-margin">
+                    <div class="span6 padding10">
+                        <h3 class="fg-white">关于北京中数智汇</h3>
+                        <p class="fg-white">北京办公室团队主要由销售、运维、客服部门的成员组成。</p>
+                    </div>
+                    <div class="span6 padding10">
+                        <p class="fg-white">联系方式</p>
+                        <p class="fg-white">010-57729868、010-88334523</p>
+                        <p class="fg-white">service@chinadaas.com</p>
+                        <p class="fg-white">北京市西城区西直门外大街18号金贸大厦B座726室,邮编100044</p>
+                    </div>
+                </div>
+                <div class="row no-margin">
+                    <div class="span6 padding10">
+                        <h3 class="fg-white">关于上海熠新</h3>
+                        <p class="fg-white">上海办公室团队主要由销售、技术、客服部门的成员组成。</p>
+                    </div>
+                    <div class="span6 padding10">
+                        <p class="fg-white">联系方式</p>
+                        <p class="fg-white">021-61119958</p>
+                        <p class="fg-white">service@chinadaas.com</p>
+                        <p class="fg-white">上海市浦东新区松林路97弄海怡别墅5号,邮编200120</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark">
+        <div class="container tertiary-text bg-dark fg-white" style="padding: 10px;">
+            北京中数智汇科技有限公司©2014 By yichuanzhou 
+        </div>
+    </div>
+</div>
+{% endblock %}

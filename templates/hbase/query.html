@@ -1,0 +1,51 @@
+{% extends "bbase.html" %}
+
+{% block title %} HBase数据查询 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/hbase/tables/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            HBase Query - {{tablename}}</h1>
+        <div class="grid no-margin">
+            <h2>Filter</h2>
+            <div class="border">
+            <form action="/hbase/query/" method="POST">
+                {% csrf_token %}
+                <fieldset>
+                    <label>rowkey</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="rowkey" placeholder="rowkey">
+                        <input type="hidden" name="tablename" value="{{tablename}}">
+                    </div>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            </div>
+            <h2>Result</h2>
+	    {% if value %}
+            <table class="table striped bordered hovered">
+                <thead>
+                    {% for h in head %}
+                    <th class="text-left">{{h}}</th>
+                    {% endfor %}
+                </thead>
+                <tbody>
+                    {% for line in value %}
+                    <tr>
+                        {% for val in line %}
+                        <td>{{val}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+	    {% else %}
+	    <div>No Record.</div>
+	    {% endif %}
+        </div>
+    </div>
+
+{% endblock %}

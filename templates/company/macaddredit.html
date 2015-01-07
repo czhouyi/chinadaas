@@ -1,0 +1,56 @@
+{% extends "bbase.html" %}
+
+{% block title %} 新增MAC地址 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/company/macaddrlist/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            新增MAC地址</h1>
+        <div class="grid no-margin">
+            <div class="border">
+            <form action="/company/macaddrsubmit/" method="POST">
+                {% csrf_token %}
+                <fieldset>
+                    <label>姓名</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="person_name" placeholder="请填写您的姓名">
+                        <input type="hidden" name="id" value="{{id}}">
+                    </div>
+                    <label>有线IP</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="wire_ip" placeholder="请填写您的有线IP">
+                    </div>
+                    <label>有线MAC地址</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="wire_mac" placeholder="请填写您的有线MAC地址">
+                    </div>
+                    <label>无线IP</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="wire_less_ip" placeholder="请填写您的无线IP">
+                    </div>
+                    <label>无线MAC地址</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="wire_less_mac" placeholder="请填写您的无线MAC地址">
+                    </div>
+                    <div class="input-control checkbox" data-role="input-control">
+						<label class="inline-block">
+							<input name="has_pro_pm" type="checkbox">
+							<span class="check"></span>
+							是否需要访问生产服务器
+						</label>
+                    </div>
+                    <label>备注</label>
+                    <div class="input-control text" data-role="input-control">
+                        <input type="text" name="remark" placeholder="请填写备注">
+                    </div>
+                    <input type="submit" value="提交">
+                </fieldset>
+            </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

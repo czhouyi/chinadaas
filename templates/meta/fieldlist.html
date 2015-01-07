@@ -1,0 +1,36 @@
+{% extends "bbase.html" %}
+{% load filename %}
+
+{% block title %} 字段明细 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/meta/tablelist/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+           	字段明细</h1>
+		<h3>表名：{{table}}</h3>
+        <div class="grid no-margin">
+            <table class="table striped bordered hovered">
+                <thead>
+                    <th class="text-left">字段名</th>
+                    <th class="text-left">字段别名</th>
+                    <th class="text-left">字段类型</th>
+                    <th class="text-left">字段描述</th>
+                </thead>
+                <tbody>
+                    {% for field in fields %}
+                    <tr>
+                        <td>{{field.name}}</td>
+                        <td>{{field.alias}}</td>
+                        <td>{{field.type}}</td>
+                        <td>{{field.desc}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

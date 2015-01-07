@@ -1,0 +1,47 @@
+{% extends "bbase.html" %}
+{% load filename %}
+
+{% block title %} MAC地址分配 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            MAC地址分配</h1>
+        <div class="grid no-margin">
+            <table class="table striped bordered hovered">
+                <thead>
+                    <th class="text-left">姓名</th>
+                    <th class="text-left">有线IP</th>
+                    <th class="text-left">有线MAC地址</th>
+                    <th class="text-left">无线IP</th>
+                    <th class="text-left">无线MAC地址</th>
+                    <th class="text-left">访问生产服务器</th>
+                    <th class="text-left">备注</th>
+                </thead>
+                <tbody>
+                    {% for macaddr in macaddrs %}
+                    <tr>
+                        <td>{{macaddr.person_name}}</td>
+                        <td>{{macaddr.wire_ip}}</td>
+                        <td>{{macaddr.wire_mac}}</td>
+                        <td>{{macaddr.wire_less_ip}}</td>
+                        <td>{{macaddr.wire_less_mac}}</td>
+                        <td>
+						{% if macaddr.has_pro_pm %}
+						是
+						{% else %}
+						否
+						{% endif %}
+						</td>
+                        <td>{{macaddr.remark}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

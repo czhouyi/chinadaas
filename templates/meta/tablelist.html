@@ -1,0 +1,35 @@
+{% extends "bbase.html" %}
+{% load filename %}
+
+{% block title %} 数据表 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            数据表</h1>
+        <div class="grid no-margin">
+            <table class="table striped bordered hovered">
+                <thead>
+                    <th class="text-left">分类</th>
+                    <th class="text-left">表名</th>
+                    <th class="text-left">别名</th>
+                    <th class="text-left">描述</th>
+                </thead>
+                <tbody>
+                    {% for table in tables %}
+                    <tr>
+                        <td>{{table.cat.name}}</td>
+                        <td><a title="查看表{{table.name}}的字段详情" href="/meta/fieldlist/{{table.id}}/">{{table.name}}</a></td>
+                        <td>{{table.alias}}</td>
+                        <td>{{table.desc}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

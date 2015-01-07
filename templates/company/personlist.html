@@ -1,0 +1,36 @@
+{% extends "bbase.html" %}
+
+{% block title %} 职员列表 {% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>
+            <a href="/">
+                <i class="icon-arrow-left-3 fg-darker smaller"></i>
+            </a>
+            职员列表</h1>
+        <div class="grid no-margin">
+            <table class="table striped bordered hovered">
+                <thead>
+                    <th class="text-left">姓名</th>
+                    <th class="text-left">职位</th>
+                    <th class="text-left">电话</th>
+                    <th class="text-left">电子邮箱</th>
+                    <th class="text-left">QQ</th>
+                </thead>
+                <tbody>
+                    {% for p in persons %}
+                    <tr>
+                        <td>{{p.name}}</td>
+                        <td>{{p.position.name}}</td>
+                        <td>{{p.phone}}</td>
+                        <td>{{p.email}}</td>
+                        <td>{{p.qq}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}
