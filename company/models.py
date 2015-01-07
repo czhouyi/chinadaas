@@ -76,6 +76,6 @@ class Book(models.Model):
 		(LOST, '遗失'),
 	)
 	status = models.CharField(max_length=2, choices=STATUS_CHOICES, default=NORMAL)
-	desc = models.CharField(max_length=100, blank=True)
+	desc = models.TextField(blank=True)
 	def __unicode__(self):
 		return self.name
