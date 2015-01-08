@@ -43,21 +43,27 @@
                 </li>
             </ul>
 			<div class="no-tablet-portrait no-phone">
+			<div class="element-menu place-right">
 			{% if username %}
-			<ul class="element-menu place-right">
-				<li>
-				<a class="element dropdown-toggle" style="margin-right:20px;">
-					{{username}}[{{email}}]
+				<div class="element" title="{{email}}">
+					<span class="icon-user"></span>
+					<span>{{username}}</span>
+				</div>
+				<span class="element-divider"></span>
+				<a href="/tochangepwd" class="element" title="修改密码">
+					<span class="icon-key-2"></span>
 				</a>
-				<ul class="dropdown-menu place-right dark" data-role="dropdown">
-					<li><a title="修改您的密码" href="/tochangepwd/" target="_blank">修改密码</a></li>
-					<li><a title="登出系统" href="/logout/">退出</a></li>
-				</ul>
-				</li>
-			</ul>
+				<span class="element-divider"></span>
+				<a href="/logout" class="element" title="退出">
+					<span class="icon-exit"></span>
+				</a>
 			{% else %}
-				<a title="登录系统" href="/tologin/" class="element place-right">登录</a>
+				<a title="登录" href="/tologin/" class="element">
+					<span class="icon-enter"></span>
+					<span>登录</span>
+				</a>
 			{% endif %}
+			</div>
 			</div>
         </div>
     </div>
