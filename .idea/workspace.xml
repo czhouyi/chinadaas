@@ -2,172 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3da4f3-ee29-4d29-a20c-ec3e94b3f360" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/guo.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbase/Hbase-remote" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbase/Hbase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/gen-py/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbase/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templates/company/book.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/templates/account/change_pwd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/chinadaas.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbase/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templates/company/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/enterprise.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/enttype" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/templates/meta/field.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templatetags/filename.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbaseDao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templates/company/link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/templates/hbase/query.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/rs.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/templates/company/share.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/templates/account/sign_in.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/templates/account/sign_up.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/signin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/templates/account/success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/templates/hbase/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/templates/meta/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/hbase/ttypes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/account/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hbase/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/meta/views.py" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\chinadaas\services.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\mail.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0002_person_status.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0003_auto_20141108_1008.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0004_auto_20141108_1110.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0005_link_ping.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0006_remove_link_ping.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0007_share.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0008_auto_20141128_1425.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0009_share.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0010_auto_20141215_0926.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0011_macaddr.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0012_auto_20150105_1946.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0013_person_passwd.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0014_auto_20150107_1948.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0015_auto_20150107_2016.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\0016_auto_20150107_2228.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\services.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\templatetags\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\templatetags\filename.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\test.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\testurl.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\company\views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\enterprise.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\enttype" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\gen-py\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\guo.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\guoDao.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbaseDao.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbase\Hbase-remote" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbase\Hbase.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbase\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbase\constants.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\hbase\ttypes.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\rs.csv" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\hbase\views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\migrations\0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\migrations\0002_auto_20150107_1340.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\migrations\0003_auto_20150107_1342.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\migrations\0004_field_order_no.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\meta\views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\2014年信息安全事件盘点.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\Data_Analytics_Demystified.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\HADOOP认识的分享.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\伟大创意的诞生.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\博弈论的诡计-摘选.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\唐传奇.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\杂谈西方绘画欣赏.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\树莓派简介PPT.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\血型与性格.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\语音技术分享.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\company\share\uploads\集邮那些事.pptx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\changepwd.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\booklist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\linklist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\macaddredit.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\macaddrlist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\personlist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\company\sharelist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\error.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\hbase\guo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\hbase\query.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\hbase\tables.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\login.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\meta\fieldlist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\meta\tablelist.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\templates\success.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\static\images\QQ.png" afterPath="$PROJECT_DIR$/static/images/qq.png" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\chinadaas.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Andy\Documents\GitHub\chinadaas\.project" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bbase.html" afterPath="$PROJECT_DIR$/templates/bbase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chinadaas/settings.py" afterPath="$PROJECT_DIR$/chinadaas/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chinadaas/urls.py" afterPath="$PROJECT_DIR$/chinadaas/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chinadaas/views.py" afterPath="$PROJECT_DIR$/chinadaas/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chinadaas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -194,7 +37,18 @@
     <favorites_list name="chinadaas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -205,7 +59,6 @@
       <list>
         <option value="$PROJECT_DIR$/hbase/views.py" />
         <option value="$PROJECT_DIR$/templates/bbase.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/account/urls.py" />
         <option value="$PROJECT_DIR$/chinadaas/views.py" />
         <option value="$PROJECT_DIR$/app/company/models.py" />
@@ -223,6 +76,7 @@
         <option value="$PROJECT_DIR$/app/hbase/urls.py" />
         <option value="$PROJECT_DIR$/app/account/views.py" />
         <option value="$PROJECT_DIR$/app/hbase/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -258,7 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,8 +120,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chinadaas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chinadaas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,9 +425,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28330892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -944,14 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15281501" vertical-offset="0" max-vertical-offset="373">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/hbase/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.620603" vertical-offset="969" max-vertical-offset="1577">
@@ -969,6 +825,14 @@
           <folding>
             <element signature="e#15#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
