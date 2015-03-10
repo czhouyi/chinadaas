@@ -36,9 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hbase',
-    'company',
-	'meta',
+    'app.account',
+    'app.company',
+    'app.hbase',
+	'app.meta',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,8 +80,18 @@ USE_L10N = True
 
 USE_TZ = True
 
-TEMPLATE_DIRS= (
+TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, "templates"),
+)
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.core.context_processors.tz",
+    "django.contrib.messages.context_processors.messages",
+    "django.core.context_processors.request"
 )
 
 # Static files (CSS, JavaScript, Images)
@@ -93,3 +104,11 @@ STATICFILES_DIRS = (
     MEDIA_ROOT,
 
 )
+
+LOGIN_URL = '/account/sign_in/'
+
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = '25'
+EMAIL_HOST_USER = 'oppps@163.com'
+EMAIL_HOST_PASSWORD = 'dugu9jian'
+EMAIL_USE_TLS = True
