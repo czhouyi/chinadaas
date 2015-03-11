@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="chinadaas">
+	<meta name="author" content="yichuanzhou">
 	<link rel="icon" href="/static/favicon.ico">
     <title>{% block title %}{% endblock %}- ChinaDaaS平台</title>
     
@@ -15,17 +15,6 @@
     <!-- Custom styles for this template -->
     <link href="/static/main.css" rel="stylesheet">
     
-    <!--<link rel="stylesheet" type="text/css" href="/static/metro/css/metro-bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/static/metro/css/metro-bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/static/metro/css/iconFont.css" />
-    <link rel="stylesheet" type="text/css" href="/static/metro/css/docs.css" />
-    <link rel="stylesheet" type="text/css" href="/static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="/static/d3/css/coltree.css" />
-    <script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="/static/jquery/jquery.widget.min.js"></script>
-    <script type="text/javascript" src="/static/metro/min/metro.min.js"></script>
-    <script type="text/javascript" src="/static/custom.js"></script>
-    <script type="text/javascript" src="/static/d3/js/d3.v3.min.js"></script>-->
 	{% block exthead %} {% endblock %}
 </head>
 
@@ -52,7 +41,6 @@
                 <li><a href="{% url 'app.company.views.share' %}">分享</a></li>
                 <li><a href="{% url 'app.company.views.book' %}">书架</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
                 <li><a href="{% url 'app.meta.views.table' %}">数据表</a></li>
               </ul>
             </li>
@@ -60,11 +48,11 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
           	{% if user.username %}
-				<li><a href="/account/profile/">{{user.username}}</a></li>
-				<li><a href="/account/sign_out/">退出</a></li>
+				<li><a href="{% url 'app.account.views.profile' %}">{{user.username}}</a></li>
+				<li><a href="{% url 'app.account.views.sign_out' %}">退出</a></li>
 			{% else %}
-				<li><a href="/account/sign_up/">注册</a></li>
-				<li><a href="/account/sign_in/">登录</a></li>
+				<li><a href="{% url 'app.account.views.sign_up' %}">注册</a></li>
+				<li><a href="{% url 'app.account.views.sign_in' %}">登录</a></li>
 			{% endif %}
           </ul>
         </div>
