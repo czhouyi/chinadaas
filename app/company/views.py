@@ -7,8 +7,7 @@ from models import *
 
 def contact(request):
 	ctx = dict(user=request.user)
-
-	persons = Person.objects.filter(user__is_active='1')
+	persons = Person.objects.all().order_by("user__username")
 	ctx.update(dict(persons=persons))
 	return render_to_response('company/contact.html', ctx)
 
@@ -32,7 +31,7 @@ def share(request):
 def book(request):
 	ctx = dict(user=request.user)
 
-	books = Book.objects.all().order_by("name")
+	books = Book.objects.all().order_by("id")
 	ctx.update(dict(books=books))
 	return render_to_response('company/book.html', ctx)
 

@@ -1,39 +1,39 @@
 {% extends "bbase.html" %}
 {% load filename %}
 
-{% block title %} 分享列表 {% endblock %}
+{% block title %} 分享 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <h1>
-            <a href="/">
-                <i class="icon-arrow-left-3 fg-darker smaller"></i>
-            </a>
-            分享列表</h1>
-        <div class="grid no-margin">
-            <table class="table striped bordered hovered">
-                <thead>
-                    <th class="text-left">分享人</th>
-                    <th class="text-left">分享主题</th>
-                    <th class="text-left">分享日期</th>
-                    <th class="text-left">附件</th>
-                </thead>
-                <tbody>
-                    {% for share in shares %}
-                    <tr>
-                        <td>{{share.person.name}}</td>
-                        <td>{{share.topic}}</td>
-                        <td>{{share.created|date:"Y-m-d"}}</td>
-                        <td>
-						{% if share.attach %}
-							<a href="{{share.attach|cut:".."}}" target="_blank">{{share.attach|filename:"/"}}</a>
-						{% endif %}
+<div class="container">
+	<div class="page-header">
+		<h1>分享</h1>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>分享人</th>
+						<th>分享主题</th>
+						<th>分享日期</th>
+						<th>附件</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for share in shares %}
+					<tr>
+						<td>{{share.person.user.last_name}}{{share.person.user.first_name}}</td>
+						<td>{{share.topic}}</td>
+						<td>{{share.created|date:"Y-m-d"}}</td>
+						<td>
+							{% if share.attach %}
+							<a href="{{share.attach|cut:" .. "}}" target="_blank">{{share.attach|filename:"/"}}</a> {% endif %}
 						</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-    </div>
-
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
 {% endblock %}
